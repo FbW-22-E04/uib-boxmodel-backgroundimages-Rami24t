@@ -1,5 +1,32 @@
+h1 {
+    margin: 0.1rem;
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+}
+body{
+    margin: auto;
+}
 .info-1, .info-2, .info-3 {
-    width: 30%;
+    width: 32%;
     color: white;
     text-shadow: 1px 1px 1px black;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-position: center center;
+    padding: 1.8rem;
+    margin: 0.2rem;
+    background-size: cover;
+    border-radius: 2%;
+    float: left;
+    box-sizing: border-box;
 }
+
+.info-1 {
+    background-image: url(./assets/task2-bg.jpeg);
+} 
+.info-2{
+    background-image: url(./assets/task2-bg1.jpeg);
+}
+.info-3{
+    background-image: url(./assets/task2-bg2.jpg);
+} 
